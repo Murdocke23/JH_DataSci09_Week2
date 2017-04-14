@@ -1,0 +1,51 @@
+---
+title: "Calgary Ultee Field Locations"
+author: "Murray Thompson"
+date: "April 14, 2017"
+output: html_document
+---
+
+
+## Background
+
+As this assignment required incorporating a map, I decided to try and take a custom Google map I created a few years agao, and see how I could translate it from the exported KML to a Leaflet-based map.
+
+The orginal map can be found here:
+https://www.google.com/maps/d/edit?mid=17Z8P2QTdKv4J72iCMgGTgSSHj1g&ll=51.064620084093576%2C-114.16622367275994&z=15
+
+*Note: in case you play Ultimate in Calgary, this map may now be out of date :)*
+
+## Preparation
+```{r}
+
+# load libraries
+library(XML)
+library(tidyr)
+library(leaflet)
+# library(htmlwidgets)
+
+```
+
+## Open and process the exported KML document:
+
+```{r echo=TRUE}
+  kmlDoc <- xmlParse("fieldmapdata.kml")
+  fieldMapPlacemarks = xmlToDataFrame(getNodeSet(kmlDoc, "//k:Placemark", c(k="http://www.opengis.net/kml/2.2")))
+  
+  fieldMapPlacemarks <- separate(fieldMapPlacemarks, Point, c("Long", "Lat","Elev"), sep=",", remove=TRUE, convert=TRUE)
+  fieldMapPlacemarks$styleUrl <- NULL
+```
+
+Note that this KML document only contains placemarks in a signle layer, and not lines or areas. It also does not retain the custom symbols for each location that are displayed in the orginal Google map.
+
+## The map:
+
+```{r echo=TRUE}
+
+map <- leaflet() %>%
+  addTiles() %>%
+  addMarkers(lng=fieldMapPlacemarks$Long, lat=fieldMapPlacemarks$Lat, label=fieldMapPlacemarks$name, popup=fieldMapPlacemarks$description)
+
+map
+
+```

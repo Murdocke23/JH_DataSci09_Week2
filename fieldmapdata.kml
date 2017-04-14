@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Bridlewood 1</name>
+      <description><![CDATA[207 Bridleridge Way SW<br>(Field Code: S1BRI07)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.109899,50.900587,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bridlewood 3</name>
+      <description><![CDATA[16735 - 24 Street SW<br><br>(Field Code:                                 S1BRI0)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.118171,50.903219,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bridlewood 4</name>
+      <description><![CDATA[16735 - 24 Street SW<br><br>(Field Code: S1BRI10)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.118187,50.902803,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Calgary Rugby Union</name>
+      <description><![CDATA[9025 Shepard Road SE<br><br>10 fields:<br>The fields are labeled starting with 1 being the closest field to the clubhouse and A being the closest side to the rugby clubhouse.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -113.992462,50.972373,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Calgary West Soccer Centre</name>
+      <description><![CDATA[11014 Bearspaw Dam Road NW<br><br>(Indoor Fields for Winter League)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.246268,51.105503,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Citadel 1A</name>
+      <description><![CDATA[730 Citadel Way NW (St. Brigid School)<br><br>From Country Hills Blvd NW, turn north on Citadel Way and follow the road around to St. Brigid School.<br>The field is wide enough for two games but has a dip on the east end-zone. Setup your cones accordingly.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.188097,51.14519,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cougar Ridge</name>
+      <description><![CDATA[515 Cougar Ridge Drive SW<br><br>(Field Code: S4CGR02)<br><br>On top of the Paskapoo Slopes just south of Canada Olympic Park. Take Bow Trail heading west, cross Sarcee Trail and go up the hill, turn right on Old Banff Coach Road and turn right at Cougar Ridge Drive SW.Fields may not yet have post numbers, but we have the large field booked S4CGR02.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.218105,51.070641,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cougar Ridge Greenspace </name>
+      <description><![CDATA[515 Cougar Ridge Dr. SW<br><br>On top of the Paskapoo Slopes just south of Canada Olympic Park. Take Bow Trail heading west, cross Sarcee Trail and go up the hill, turn right on Old Banff Coach Road and turn right at Cougar Ridge Drive SW.This is the large greenspace to the southeast of the soccer fields.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.216957,51.069819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Crossroads Fields</name>
+      <description><![CDATA[18th Ave and 21 St NE                        <br><br>2 Fields: East and West<br><br>Take 16 Ave N, then turn north on 19 st NE.Take next right at first set of lights.  The fields are about a block down on left hand side.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.010234,51.069698,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deer Ridge Field</name>
+      <description><![CDATA[Deerview Drive & Deerview Place SE<br><br>(Goal post #S3DRG07)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.017149,50.925944,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deer Ridge Elementary School</name>
+      <description><![CDATA[2127 146 Ave SE<br><br>(Goal Post #S3DRN0)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.011135,50.920837,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>East Shepard Industrial Park</name>
+      <description><![CDATA[44 Street & 116 Avenue SE<br>(Next to water treatment plant)<br><br>(Field Code: X3ESH0)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -113.971054,50.947507,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Frank McCool Athletic Park </name>
+      <description><![CDATA[Lake Bonavista Drive & Acadia Drive S.E. (Between soccer fields and building.)<br><br>Athletic Park fields are subject to rainout.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.050853,50.935894,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Glenmore Athletic Park</name>
+      <description><![CDATA[5300 - 19 Street<br><br>3 fields:<br>Fields in northwest corner of park: <br><br>- 2A: runs North-South along west edge (19 St SW) <br><br>- 2B: runs North-South between 2A and running track <br><br>- 2C: runs East-West along north edge (50 Ave SW) <br><br><br>Athletic Park fields are subject to rainout.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.10564,51.008216,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hidden Valley </name>
+      <description><![CDATA[10959 Hidden Valley Dr. N.W. (Hidden Valley Elementary)<br><br>(Field Code: S1HID08)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.116557,51.148515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Inland Soccer 6</name>
+      <description><![CDATA[11110 - 69 Street NW<br><br>(Field Code: S1INR06)<br><br>Access from N. on Sarcee and West on 112 Ave.It is the MIDDLE, SOUTHERN soccer field.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.18115,51.152368,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kingsland Drypond</name>
+      <description><![CDATA[505 - 78 Avenue SW<br><br>(Field Code: S3KIN11)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.074178,50.982148,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>McMahon Stadium</name>
+      <description>1817 Crowchild Trail NW</description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.121406,51.070259,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mountview Playfields</name>
+      <description><![CDATA[6640 - 14th Ave S.E.<br><br>(Field Code: S2RED01)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -113.938168,51.041212,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nickle Jr. High</name>
+      <description><![CDATA[2500 Lake Bonavista Drive SE<br><br>(Field Code: S3LKB30)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.061992,50.939102,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Riverbend School</name>
+      <description><![CDATA[65 Rivervally Drive SE<br>(Field Code: S2RIV04)<br><br>Park in school parking lot off of Riverbend Dr: (field is behind the grassy knoll)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.018742,50.971191,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shouldice - Encana Field</name>
+      <description><![CDATA[1515 Home Road NW<br><br>2 Fields<br><br>Artificial turf]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.170104,51.071666,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shouldice - Hellard Field</name>
+      <description><![CDATA[1515 Home Road NW<br><br>2 Fields<br><br>Artificial turf]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.166966,51.071973,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shouldice - Stampeder Field</name>
+      <description><![CDATA[1515 Home Road NW<br><br>2 Fields<br><br>Artificial turf (not as shown on Google Map: runs perpendicular to road)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.169396,51.071245,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Terry Fox Jr. High</name>
+      <description><![CDATA[138 Falshire Dr NE<br><br>(Field Code: S1FAL0)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -113.94334,51.104256,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Triwood Playfields (SPB Jr. High) </name>
+      <description><![CDATA[2155 Chilcotin Road NW (24th Street NW at Senator Patrick Burns Junior High School)<br><br>(Field Code: S1TRI2)<br><br>Bring your permits as soccer may still think they have the field.]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.114186,51.08727,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vista Heights</name>
+      <description><![CDATA[15th Street & 27th Avenue NE<br><br>(Field Code: X2VIS12)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.021429,51.076226,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Westsprings</name>
+      <description><![CDATA[Wentworth Drive and Wentworth Rise SW<br><br>(Field Code: ??)]]></description>
+      <styleUrl>#icon-503-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -114.214827,51.057315,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
