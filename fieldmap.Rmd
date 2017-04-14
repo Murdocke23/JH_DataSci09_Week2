@@ -22,18 +22,30 @@ https://www.google.com/maps/d/edit?mid=17Z8P2QTdKv4J72iCMgGTgSSHj1g&ll=51.064620
 library(XML)
 library(tidyr)
 library(leaflet)
-# library(htmlwidgets)
 
 ```
 
 ## Open and process the exported KML document:
 
 ```{r echo=TRUE}
+
+  #load up KML file
   kmlDoc <- xmlParse("fieldmapdata.kml")
-  fieldMapPlacemarks = xmlToDataFrame(getNodeSet(kmlDoc, "//k:Placemark", c(k="http://www.opengis.net/kml/2.2")))
+
+  #get placemark data
+  fieldMapPlacemarks = xmlToDataFrame(getNodeSet(kmlDoc, 
+                                                 "//k:Placemark", 
+                                                 c(k="http://www.opengis.net/kml/2.2")))
   
-  fieldMapPlacemarks <- separate(fieldMapPlacemarks, Point, c("Long", "Lat","Elev"), sep=",", remove=TRUE, convert=TRUE)
-  fieldMapPlacemarks$styleUrl <- NULL
+  #extract location coordinates
+  fieldMapPlacemarks <- separate(fieldMapPlacemarks, 
+                                 Point, 
+                                 c("Long", "Lat","Elev"), 
+                                 sep=",", 
+                                 remove=TRUE, 
+                                 convert=TRUE)
+
+    fieldMapPlacemarks$styleUrl <- NULL #no added info provided (all are same value)
 ```
 
 Note that this KML document only contains placemarks in a signle layer, and not lines or areas. It also does not retain the custom symbols for each location that are displayed in the orginal Google map.
@@ -44,7 +56,11 @@ Note that this KML document only contains placemarks in a signle layer, and not 
 
 map <- leaflet() %>%
   addTiles() %>%
-  addMarkers(lng=fieldMapPlacemarks$Long, lat=fieldMapPlacemarks$Lat, label=fieldMapPlacemarks$name, popup=fieldMapPlacemarks$description)
+  addMarkers(lng=fieldMapPlacemarks$Long, 
+             lat=fieldMapPlacemarks$Lat, 
+             label=fieldMapPlacemarks$name, 
+             popup=fieldMapPlacemarks$description
+             )
 
 map
 
